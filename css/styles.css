@@ -829,7 +829,7 @@ body {
     height: 92%;
     background-color: #ccc;
     z-index: 1;
-    margin-left: 20%;
+    margin-left: 270px;
 }
 
 .experience-box {
@@ -842,7 +842,7 @@ body {
     margin-right: 8%;
     position: relative;
     z-index: 2;
-    margin-top: 24.5%;
+    margin-top: 370.5px;
     margin-left: 10%;
 }
 
@@ -858,7 +858,7 @@ body {
     max-width: 600px;
     position: relative;
     z-index: 2;
-    margin-top: 5.3%;
+    margin-top: 78px;
 }
 
 .growing-products__subtitle {
