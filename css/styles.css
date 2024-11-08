@@ -1451,6 +1451,10 @@ body {
         background-size: cover;
     }
 
+    .header__nav-list {
+        padding-right: 0
+    }
+
     .hero-section__title {
         font-size: 28px;
     }
@@ -1592,7 +1596,7 @@ body {
     }
 
     .banner-2__button {
-        width: 80%;
+        width: 100%;
         justify-content: center;
         padding: 10px;
         font-size: 14px;
@@ -1602,6 +1606,32 @@ body {
         width: 100%;
         padding: 10px;
         text-align: center;
+    }
+
+    .our-mission__container h1 {
+        font-size: 33px;
+    }
+
+    .our-mission__description span {
+        margin: 0;
+        width: 77%;
+    }
+
+    .our-mission_img {
+        display: block;
+        grid-template-columns: 1fr !important
+    }
+
+    .our-mission_img img {
+        width: 60%;
+        padding: 2px;
+    }
+
+    .vertical-line {
+        width: 100%;
+        border: 1px dashed #949494;
+        margin: auto;
+        height: 1%;
     }
 
     .our-offer {
@@ -1639,6 +1669,26 @@ body {
         padding: 10px;
     }
 
+    .our-products {
+        display: block;
+        text-align: center;
+    }
+
+    .our-products__button {
+        width: 100%;
+    }
+
+    .product-card--highlighted {
+        padding-left: 0;
+        padding: 10rem 2px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .our-products__title {
+        font-size: 40px
+    }
+
     .blog-section {
         padding: 40px 10px;
         text-align: center;
@@ -1668,6 +1718,26 @@ body {
         gap: 20px;
     }
 
+    .growing-products {
+        display: block;
+    }
+
+    .background-square {
+        margin-left: 120px;
+        width: 67%;
+        height: 102%
+    }
+
+    .experience-box {
+        margin-top: 3%;
+        top: 20px
+    }
+
+    .growing-products__content {
+        width: 80%;
+        margin: 10%;
+    }
+
     .testimonials {
         padding: 20px;
     }
@@ -1684,6 +1754,7 @@ body {
 
     .contact-section {
         padding: 40px 10px;
+        font-family: 'DM Sans';
     }
 
     .contact-section__title {
@@ -1735,7 +1806,18 @@ body {
 
     .contact-form__input,
     .contact-form__textarea {
-        width: 100%;
+        margin: auto;
+        width: 340px !important;
+    }
+
+    .contact-form__submit-btn {
+        width: 50%;
+        margin: 0;
+    }
+
+    .contact-form__submit-btn button {
+        align-items: center;
+        margin-top: 0;
     }
 
     .footer__container {
