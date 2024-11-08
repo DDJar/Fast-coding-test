@@ -372,20 +372,20 @@
                         <h3 class="contact-form__title">Contact Us</h3>
                         <form action="#" class="contact-form">
                             <div class="contact-form__group">
-                                <label class="contact-form__label">Name:</label>
-                                <input type="text" name="name" placeholder="Enter your name" required
-                                    class="contact-form__input">
+                                <label for="name" class="contact-form__label">Name:</label>
+                                <input type="text" id="name" name="name" placeholder="Enter your name"
+                                    autocomplete="name" required class="contact-form__input">
                             </div>
                             <div class="contact-form__group">
-                                <label class="contact-form__label">Email:</label>
-                                <input type="email" name="email" placeholder="Enter your email" required
-                                    class="contact-form__input">
+                                <label for="email" class="contact-form__label">Email:</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email"
+                                    autocomplete="email" required class="contact-form__input">
                             </div>
 
                             <div class="contact-form__group">
-                                <label class="contact-form__label">Message:</label>
-                                <textarea name="message" placeholder="Enter your message" required
-                                    class="contact-form__textarea"></textarea>
+                                <label for="message" class="contact-form__label">Message:</label>
+                                <textarea id="message" name="message" placeholder="Enter your message"
+                                    autocomplete="message" required class="contact-form__textarea"></textarea>
                             </div>
                             <div class="contact-form__submit-btn">
                                 <button type="submit">Send</button>
