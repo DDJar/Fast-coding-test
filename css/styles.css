@@ -1085,7 +1085,7 @@ body {
 .contact-section__content {
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 30px;
 }
 
 .contact-section__header {
@@ -1128,7 +1128,7 @@ body {
     justify-content: center;
     width: 70%;
     margin: auto;
-    padding-top: 6%;
+    padding-top: 3%;
 }
 
 
@@ -1137,7 +1137,7 @@ body {
     color: #666;
     line-height: 1.5;
     margin: 20px 0;
-    width: 80%;
+    width: 87%;
     text-align: left;
 }
 
@@ -1167,7 +1167,7 @@ body {
 
 .gray-block {
     position: absolute;
-    background-color: #d3d3d3;
+    background-color: #C4C4C4;
     border-radius: 8px;
 }
 
@@ -1209,6 +1209,7 @@ body {
     width: 90%;
     background-color: #F8F6F4;
     padding: 20px;
+    padding-top: 2px;
     border-radius: 8px;
 
 }
@@ -1226,7 +1227,6 @@ body {
     display: grid;
     align-items: center;
     margin-bottom: 15px;
-    padding: 10px;
 }
 
 .contact-form__label {
@@ -1242,12 +1242,19 @@ body {
     height: 119.26px !important;
 }
 
+.contact-form__input {
+    width: 418.19px !important;
+    height: 55.65px !important;
+
+}
+
 .contact-form__input,
 .contact-form__textarea {
     flex: 1;
     padding: 8px;
     border-radius: 8px;
     border: 1px solid #ccc;
+    margin-top: 2%;
 }
 
 .contact-form__submit-btn {
@@ -1257,7 +1264,7 @@ body {
 }
 
 .contact-form__submit-btn button {
-    margin-top: 10px;
+    margin-top: 30%;
     padding: 16px 48px 16px 48px;
     background-color: #f0a500;
     color: #fff;
